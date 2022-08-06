@@ -1,0 +1,89 @@
+/* 通过id选择器设置样式 */
+#container{
+	background-color: #f0f0f0;/* 背景颜色 */
+	/* 
+	设置外边距
+		上下边距为0
+		左右边距为父元素（浏览器窗口的15%）
+	 */
+	margin: 0 15%;
+	
+}
+/* 通过元素选择器h1设置样式 */
+h1{
+	height: 70px;
+	color: white;
+	/* 背景颜色 德国国花的颜色 蓝色*/
+	background-color: cornflowerblue;
+	/* 行间距 */
+	line-height: 70px;
+	/* 缩进 */
+	text-indent: 70px;
+	
+}
+/* 通过id选择器设置导航信息居中 */
+#nav{
+	text-align: center;
+}
+/* 后代选择器  nav导航下的li*/
+#nav li{
+	display: inline-block;/* 设置行内块级元素 */
+	width: 100px;
+	height: 30px;
+	background-color:cornflowerblue ;
+	/* 行间距 与高度保持一致则显示在中间 */
+	line-height: 30px;
+	/* 边框 */
+	border: 1px solid cornflowerblue;
+	/* 边框左下角和右上角弧度角变圆10% */
+	border-radius: 0 10px;
+	
+}
+#nav li a{
+	/* 去除a标签的下划线 */
+	text-decoration: none;
+	/* 字体颜色 */
+	color: white;
+}
+/* 通过设置a标签的伪类选择器：hover 设置字体加粗 */
+#nav li a:hover{
+	
+	font-weight: bold;
+}
+/* 
+通过类选择器设置样式 
+ */
+.center{
+	text-align: center;
+}
+.margin{
+	margin: 0px 20px;
+	text-align: left;
+}
+
+#userinfo p{
+	text-indent: 30px;
+}
+.table{
+	width: 100%;
+}
+	
+textarea{
+	/* 父元素宽度的100% */
+	width: 100%;
+	height: 100px;
+	
+}
+#copyright{
+	/* 背景颜色 */
+	background-color: cornflowerblue;
+	text-align: center;
+	/* 字体颜色 */
+	color: white;
+	/* 高度 */
+	height: 70px;
+	/* 行间距 */
+	line-height: 70px;
+	font-size: 12px;
+	width: 100%;
+}
